@@ -12,7 +12,6 @@ import xgboost as xgb
 from xgboost import XGBRegressor
 import traceback
 
-
 data_path = os.path.abspath(os.path.dirname(os.path.realpath(__file__)) + '/..') + '/Data'
 # images_path = "/ceph/csedu-scratch/project/akaradathodi/Images/"
 images_path = os.path.abspath(data_path + '/../../') + '/Images/'
